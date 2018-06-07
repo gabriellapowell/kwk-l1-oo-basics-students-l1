@@ -1,12 +1,19 @@
 class Book
 
-def initialize(title)
+def initialize(title, author)
 @title = title
+@author = author
 end
+
 def title
   @title
 end
-end 
+
+
+
+
+end
+
 
 book_1 = Book.new("Paper Towns")
 book_2 = Book.new("Now You See Me")
